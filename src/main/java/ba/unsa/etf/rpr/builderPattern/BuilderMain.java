@@ -4,7 +4,8 @@ public class BuilderMain {
 
         public static void main( String[] args )
         {
-            System.out.println( "Hello World!" );
+            Computer comp=new ComputerBuilder().setOs("Windows").setStorage(500).setMemory(16).getComputer();
+            System.out.println(comp);
         }
 
 }
